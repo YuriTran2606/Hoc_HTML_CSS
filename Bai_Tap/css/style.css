@@ -1,3 +1,5 @@
+
+
 body{
 	font-family: 'Fredoka', sans-serif;
 	color: #333;
@@ -105,7 +107,58 @@ img{
     background-color: #cdebfc;
     background-position: left bottom;
     background-size: cover;
+    position: relative;
 }
+.wrap-content-images{
+	padding-top: 50px;
+}
+
+.wrap-col-lf-content {
+	font-family: 'Fredoka One', cursive;
+	
+}
+.wrap-col-lf-content h1{
+	font-size: 50px;
+	margin-bottom: 15px;
+	font-family: 'Luckiest Guy', cursive;
+	padding-top: 10px;
+	
+}
+.banner-content{
+	padding-top: 200px;
+}
+.shop-now-link:hover{
+	background-color: #212529;
+}
+.shop-now-link{
+	width: 150px;
+	color: #fff;
+	background-color: #259cd8;
+	text-align: center;
+	margin-top: 10px;
+    padding: 5px;
+}
+.wrap-col-rg-images{
+	width: 50%;
+}
+
+.main-banner{
+	z-index: -1;
+}
+.banner2{
+	width: 300px;
+	position: absolute;
+	bottom: 10%;
+	left: 35%;
+}
+.banner3{
+	width: 300px;
+	position: absolute;
+	top: 20%;
+	right: 20%;
+}
+
+
 
 
 	
