@@ -1,7 +1,7 @@
 
 
 body{
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Titillium Web', sans-serif; 
 	color: #333;
 	font-size: 16px;
 }
@@ -121,7 +121,7 @@ img{
 	font-size: 20px;
 }
 .wrap-col-lf-content h1{
-	font-size: 50px;
+	font-size: 65px;
 	margin-bottom: 15px;
 	font-family: 'Luckiest Guy', cursive;
 	padding-top: 10px;	
@@ -167,6 +167,7 @@ img{
 .wrap-offer-img{
 	justify-content: space-between;
 	width: 100%;
+	padding-top: 100px;
 }
 .singel-offer{
 	margin-right: 20px;
@@ -181,23 +182,97 @@ img{
 .wrap-item-categories{
 	width: 100%;
 	text-align: center;
+}		 
+     
+.wrap-product-img-content {
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-.wrap-product-img-content{
-	width: 300px;
-	 
+.wrap-product-img-content .product-img-content{
+	width: calc(100% * (1/4) - 20px);
+	margin: 0 0 20px 0px;
 }
-.shop-grid{
-	margin-right: 20px;
+.single-product .img {
+	position: relative;
 }
-.singel-product{
-	margin-bottom: 20px
+.products-botton{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    opacity: 0;
+}
+.products-botton:hover {
+	bottom: 30px;
+	opacity: 2;
+    bottom: 20px;
+    
 }
 
+.products-botton li{
+	align-items: center;
+	margin-right: 10px;
+	margin-left: 20px;
 }
+.Hot{
+	background-color: #FBBF69;
+    color: white;
+    position: absolute;
+    padding: 2px 12px;
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+     font-weight: 600;
+}
+.On-Sale{
+	background-color: green;
+    color: white;
+    position: absolute;
+    padding: 2px 12px;
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+     font-weight: 600;
+}
+.content{
+	margin-top: 20px;
+}
+.content h3 a:hover {
+	color: #0dcaf0;
+
+}
+.rating{
+	color: #ffc107;
+
+}
+.price{
+	color: #000;
+	font-size: 15px
+
+}
+.products-botton .fas{
+	background-color: white;
+	padding: 10px;
+}
+.products-botton .fas:hover{
+	background-color: #0dcaf0;
+}
+.products-botton .far{
+	background-color: white;
+	padding: 10px;
+}
+.products-botton .far:hover{
+	background-color: #0dcaf0;
+}
+.old-price{
+	color: #ccc;
+	text-decoration: line-through;
+}
+
 
 	
 
-}
 
 
 
