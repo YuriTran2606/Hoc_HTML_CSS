@@ -109,7 +109,7 @@ img{
     background-color: #cdebfc;
     background-position: left bottom;
     background-size: cover;
-    position: relative;
+    
 
 }
 .wrap-content-images{
@@ -147,18 +147,22 @@ img{
 }
 .wrap-col-rg-images{
 	width: 50%;
+
+}
+.wrap-col-rg-images .banner-images{
+	position: relative;
 }
 .banner2{
 	width: 300px;
 	position: absolute;
-	bottom: 10%;
-	left: 35%;
+	bottom: -100px;
+	left: -300px;
 }
 .banner3{
 	width: 300px;
 	position: absolute;
-	top: 20%;
-	right: 20%;	
+	top: 0;
+	right: -100px;	
 }
 .offer-patoi{
 	background-color: #fff;
